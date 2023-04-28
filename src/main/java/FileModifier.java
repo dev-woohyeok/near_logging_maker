@@ -2,6 +2,8 @@ import java.io.*;
 import java.nio.file.*;
 import java.util.*;
 
+// RUSTFLAGS="-C target-cpu=apple-m1" cg build --profile dev
+// RUST_LOG=debug,actix_web=debug /Users/hawaii/Desktop/nearcore/target/debug/neard --home ~/.near run
 public class FileModifier {
     //                "/Users/hawaii/Desktop/nearcore/target",
 //            "/Users/hawaii/Desktop/nearcore/runtime",//
